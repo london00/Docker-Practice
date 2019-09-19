@@ -1,0 +1,5 @@
+# CREATE IMAGE ->               docker build . -t geiser00/node-project
+# RUN IMAGE ->                  docker run geiser00/node-project
+# REMOVE ALL DOCKER FILES ->    docker system prune
+# RUN IMAGE WITH MAPPED PORT -> docker run -p 8080:8080 geiser00/node-project
+# RUN SECOND TERMINAL           docker exec -it #DOCKERID# sh
